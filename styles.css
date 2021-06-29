@@ -167,3 +167,46 @@ ul {
       color:var(--account-link-color);
       line-height: 15px;
   }
+  .main-content-wrapper {
+      gap:20px;
+      display:flex;
+  }
+  .deals{
+    display:flex;
+    flex-direction: column;
+  }
+  .deal-item{
+    margin-bottom:15px;
+    width:750px;;
+  }
+  .deal-item:hover{
+      border:1px solid var(--primary-color);
+  }
+  .deal-item:hover .deal-item-desc{
+      background-color: var(--primary-color);
+  }
+  .deal-item:hover .desc-hover-text{
+    display:block;
+}
+  .deal-item a{
+      display: flex;
+      flex-direction: column;
+  }
+  .deal-item-desc{
+      display: flex;
+      justify-content: space-between;
+      padding:6px 20px;
+      font-size:14px;
+      background-color: #1b1b1b;
+      color:#ffffff;
+  }
+  .desc-hover-text{
+    display: none;
+  }
+  .desc-hover-text svg{
+      transform : translateY(2px);
+      margin-left:7px;
+  }
+  .banner-item{
+      margin-bottom:35px
+  }
