@@ -6,3 +6,15 @@
 
 ## Figma
 [Figma Design](https://www.figma.com/file/IwnhPC5WBglAFGc0MJ6wXj/Trendyol-Front-End-Bootcamp?node-id=0%3A1)
+
+## Try Demo
+[Trendyol UI](https://relaxed-volhard-14ae9f.netlify.app/)
+
+## Team Members
+
+* [Mehmet Can Aygün](https://github.com/mehmetcanaygun)
+* [Ömer Çalışkan](https://github.com/omerclskn)
+* [Caner Erturul](https://github.com/canerturul)
+* [Alperen Özdinç](https://github.com/ozdincalp)
+* [Dilan Doğan](https://github.com/dilandogann)
+* [Burcu Karagöz](https://github.com/burcukaragozzz)
