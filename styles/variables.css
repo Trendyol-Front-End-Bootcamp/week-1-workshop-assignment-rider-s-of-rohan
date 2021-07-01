@@ -1,0 +1,12 @@
+:root {
+    --primary-color: #f27a1a;
+    --account-link-color: #333333;
+    --primary-backgound: #ffffff;
+    --light-gray: #999999;
+    --dark-gray: #666666;
+    --border-color: #e6e6e6;
+    --border-light-color: #e2e2e2;
+    --radio-border-color: #d6d6d6;
+    --account-link-hover-color: var(--primary-color);
+    --dropdown-z: 5;
+  }
