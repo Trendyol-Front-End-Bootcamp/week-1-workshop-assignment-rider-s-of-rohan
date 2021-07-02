@@ -33,3 +33,7 @@ input[type="search"]::-webkit-search-results-decoration {
 input {
   outline: none;
 }
+
+figure {
+  margin: 0;
+}
