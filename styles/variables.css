@@ -9,4 +9,5 @@
     --radio-border-color: #d6d6d6;
     --account-link-hover-color: var(--primary-color);
     --dropdown-z: 5;
-  }
+    --container-width: 1080px;
+}
