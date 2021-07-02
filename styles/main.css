@@ -1,7 +1,26 @@
-@import url('reset.css');
-@import url('variables.css');
+@import url("reset.css");
+@import url("variables.css");
 
 /** Homepage **/
+
+/* Overlay - Start */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/* Overlay - End */
+
+/* Top Banner - Start */
+.top-banner {
+  display: flex;
+  justify-content: center;
+  background-color: #bc41d2;
+}
+/* Top Banner - End */
 
 .container {
   width: 1080px;
@@ -64,11 +83,6 @@
   display: block;
 }
 
-/* .search button {
-  background: none;
-  border: none;
-} */
-
 .search .search-icon {
   background-image: url("./assets/icons/icon-search.svg");
   position: absolute;
@@ -80,6 +94,7 @@
 }
 
 .search-box {
+  display: none;
   position: absolute;
   top: calc(100% - 1px);
   left: 0;
@@ -91,7 +106,6 @@
   font-size: 12px;
   border: 1px solid var(--primary-color);
   border-radius: 0px 0px 6px 6px;
-  display: none;
 }
 
 .search-box .title {
@@ -136,12 +150,20 @@
   color: var(--account-link-color);
 }
 
+.account-list li a .icon-hover {
+  display: none;
+}
+
 .account-list li a:hover {
   color: var(--primary-color);
 }
 
-.account-list li a:hover svg path {
-  fill: var(--account-link-hover-color);
+.account-list li a:hover .icon {
+  display: none;
+}
+
+.account-list li a:hover .icon-hover {
+  display: block;
 }
 
 .user-menu {
@@ -174,7 +196,7 @@
   margin-bottom: 12px;
 }
 
-.account-list li:first-child {
+.account-list-username {
   color: var(--primary-color);
   margin-bottom: 12px;
 }
@@ -195,9 +217,9 @@
 /* Top Navigation - Start */
 
 .nav-links {
-  height: 24px;
   display: flex;
   justify-content: space-between;
+  height: 24px;
 }
 
 .nav-links > .nav-link {
@@ -248,7 +270,7 @@
 
 /* Category Dropdown - Start */
 
-.sub-nav-center {
+.sub-nav {
   display: none;
   position: absolute;
   width: 100%;
@@ -272,6 +294,11 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  width: 260px;
+}
+
+.sub-category-imgs img {
+  width: 100%;
 }
 
 .category-col {
@@ -301,7 +328,7 @@
   color: var(--primary-color);
 }
 
-.nav-link:hover .sub-nav-center {
+.nav-link:hover .sub-nav {
   display: flex;
   z-index: var(--dropdown-z);
 }
@@ -309,4 +336,3 @@
 /* Category Dropdown - End */
 
 /* Top Navigation - End */
-
